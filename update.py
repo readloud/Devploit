@@ -24,7 +24,7 @@ banner = '''
            Created by Joker-Security [dev-labs] 
 
 '''
-print banner
+print(banner)
 
 content = """
 #!/bin/bash
@@ -46,11 +46,11 @@ def main():
 			
 			os.system("chmod +x /usr/bin/Devploit")
 
-			print "\n\n[+] Update finished, Run \033[91m'Devploit'\033[92m In Terminal!"
+			print("\n\n[+] Update finished, Run \033[91m'Devploit'\033[92m In Terminal!")
 		else:
-			print "Run as root!"
+			print("Run as root!")
 	else:
-		print "This script doesn't work on Windows!"
+		print("This script doesn't work on Windows!")
 
 if __name__ == "__main__":
 	main()
